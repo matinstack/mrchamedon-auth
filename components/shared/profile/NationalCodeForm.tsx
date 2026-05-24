@@ -63,6 +63,7 @@ const NationalCodeForm = ({
                 className="rounded-lg border-border/60"
                 placeholder="۱۲۳۴۵۶۷۸۹۰"
                 dir="ltr"
+                autoFocus
                 variant="secondary"
                 maxLength={10}
               />

@@ -36,7 +36,7 @@ const AuthForm = ({ onNext, defaultValues }: AuthFormProps) => {
       phone: "09139760021",
       email: "",
       gender: undefined,
-      birthDate: undefined,
+      birthDate: "",
     },
   });
 
@@ -71,6 +71,7 @@ const AuthForm = ({ onNext, defaultValues }: AuthFormProps) => {
               <Input
                 {...register("name")}
                 id="name"
+                autoFocus
                 className="rounded-lg border-border/60"
                 placeholder="ابراهیم"
                 autoComplete="tel"

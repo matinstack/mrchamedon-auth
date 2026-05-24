@@ -88,7 +88,6 @@ const AddressForm = ({ onNext, onPrev, defaultValues }: AddressFormProps) => {
     <CardWrapper headerLabel={"آدرس"}>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="px-4 sm:px-11 pt-8 sm:pt-12 pb-6 sm:pb-10 mb-4 rounded-lg shadow-[-1px_-1px_4px_#57575717_inset,_1px_1px_4px_#57575717_inset]">
-          {/* ردیف اول - استان و شهر */}
           <div className="flex flex-col md:flex-row gap-3 mb-4 sm:mb-6">
             <TextField className="gap-4 w-full" isInvalid={!!errors.province}>
               <Label
